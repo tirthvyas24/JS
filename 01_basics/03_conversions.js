@@ -1,7 +1,7 @@
-let score = "123ab";
-let score1 = null;
-let score2 = undefined;
-let score3 = true
+// let score = "123ab";
+// let score1 = null;
+// let score2 = undefined;
+// let score3 = true
 
 // let scoreInNumber = Number(score)
 // console.log(typeof scoreInNumber);   // will return number
@@ -20,18 +20,51 @@ let score3 = true
 // console.log(typeof score3InNumber);   // will return number
 
 
-let isLoggedIn = "nsxq";  // will return false when empty string otherwise true 
-let boolIsLogIn = Boolean(isLoggedIn);
+// let isLoggedIn = "nsxq";  // will return false when empty string otherwise true 
+// let boolIsLogIn = Boolean(isLoggedIn);
 
-console.log(boolIsLogIn);  
-console.log(typeof boolIsLogIn);
+// console.log(boolIsLogIn);  
+// console.log(typeof boolIsLogIn);
 
 
-let someNumber = 45;
-let strNum = String(someNumber);
+// let someNumber = 45;
+// let strNum = String(someNumber);
 
-console.log(strNum);
-console.log(typeof strNum);
+// console.log(strNum);
+// console.log(typeof strNum);
+
+
+// *********************** operations *************************
+
+let value = 45;
+let negValue = -value
+// console.log(negValue);
+
+let str1 = "tirth ";
+let str2 = "vyas";
+let str3 = str1+str2;
+// console.log(str3);
+
+// console.log(1+"2");
+// console.log("1"+2);
+// console.log("1"+"1"+2);
+// console.log(2+2+"1");
+// console.log("1"+2+6);
+
+let a = "";
+console.log(1 +"");  // returns 1
+console.log(typeof 1+"");  // returns number
+
+console.log(+true);  // this will return 1
+console.log(+"");  // will return 0 and its type will number
+
+
+
+
+
+
+
+
 
 
 
