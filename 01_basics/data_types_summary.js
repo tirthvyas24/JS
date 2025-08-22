@@ -51,7 +51,7 @@ let anotherName = myYtName;
 
 anotherName = "TirthDVyas";
 
-console.log(myYtName);   // we expext myYtName to also get changed but it doesn't bcoz in primitive dtype a copy of variable is passed not it's reference
+console.log(myYtName);   // we expect myYtName to also get changed but it doesn't bcoz in primitive dtype a copy of variable is passed not it's reference
 console.log(anotherName);
 
 
