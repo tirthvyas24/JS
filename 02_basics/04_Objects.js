@@ -38,13 +38,27 @@ const obj3 = {5:"a", 6:"b"}
 const obj6 = {...obj1, ...obj2, ...obj3}
 // console.log(obj6);
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+//  Objects video 3
+
+const course = {
+    courseName : "JS in Hindi",
+    price : "999",
+    courseInstructor : "Hitesh"
+}
+
+// console.log(course.courseInstructor);
+// const {courseInstructor} = course;
+const {courseInstructor : instructor} = course;   // this curly braces are used for destructuring the object
+console.log(instructor);
 
 
 
